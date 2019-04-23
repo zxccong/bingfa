@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2150c2dd-5fbd-4ca0-9a8e-416055789bac" name="Default Changelist" comment="ThreadLocal的底层原理和运用以及结合单例封装成类">
-      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java" afterDir="false" />
+    <list default="true" id="2150c2dd-5fbd-4ca0-9a8e-416055789bac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/StudyAtomClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,17 +95,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <state relative-caret-position="449">
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
               <folding>
                 <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#390#391#0" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
                 <element signature="e#443#444#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/StudyAtomClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -133,6 +142,7 @@
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest2.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java" />
+        <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/StudyAtomClass.java" />
       </list>
     </option>
   </component>
@@ -189,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555979082035" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555981021787" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ThreadTest/ThreadTest.iml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -289,7 +299,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555914966623</updated>
-      <workItem from="1555914970989" duration="12999000" />
+      <workItem from="1555914970989" duration="14603000" />
     </task>
     <task id="LOCAL-00001" summary="线程范围内的共享变量">
       <created>1555921376535</created>
@@ -305,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555928689110</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="7.面试题：线程共享数据">
+      <created>1555979109516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555979109516</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12999000" />
+    <option name="totallyTimeSpent" value="14603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -352,7 +369,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="线程范围内的共享变量" />
     <MESSAGE value="ThreadLocal的底层原理和运用以及结合单例封装成类" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThreadLocal的底层原理和运用以及结合单例封装成类" />
+    <MESSAGE value="7.面试题：线程共享数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.面试题：线程共享数据" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThreadTest/ThreadTest.iml">
@@ -441,14 +459,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="449">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
           <folding>
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#390#391#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/StudyAtomClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
