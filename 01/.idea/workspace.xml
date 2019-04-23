@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2150c2dd-5fbd-4ca0-9a8e-416055789bac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest2.java" afterDir="false" />
+    <list default="true" id="2150c2dd-5fbd-4ca0-9a8e-416055789bac" name="Default Changelist" comment="ThreadLocal的底层原理和运用以及结合单例封装成类">
+      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadScopeShareData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadScopeShareData$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadScopeShareData$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadScopeShareData$A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadScopeShareData$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadScopeShareData$B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadScopeShareData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadScopeShareData.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,13 +83,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="228">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="e#1756#1775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <folding>
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,6 +132,7 @@
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadScopeShareData.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest2.java" />
+        <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java" />
       </list>
     </option>
   </component>
@@ -167,22 +178,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="peason" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peason" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadLocalTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peason" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadLocalTest2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -194,7 +189,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555928616535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555979082035" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ThreadTest/ThreadTest.iml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -294,7 +289,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555914966623</updated>
-      <workItem from="1555914970989" duration="8966000" />
+      <workItem from="1555914970989" duration="12999000" />
     </task>
     <task id="LOCAL-00001" summary="线程范围内的共享变量">
       <created>1555921376535</created>
@@ -303,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555921376535</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ThreadLocal的底层原理和运用以及结合单例封装成类">
+      <created>1555928689110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555928689110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8966000" />
+    <option name="totallyTimeSpent" value="12999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -349,7 +351,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="线程范围内的共享变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程范围内的共享变量" />
+    <MESSAGE value="ThreadLocal的底层原理和运用以及结合单例封装成类" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThreadLocal的底层原理和运用以及结合单例封装成类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThreadTest/ThreadTest.iml">
@@ -428,10 +431,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="228">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="e#1756#1775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
           </folding>
         </state>
       </provider>
