@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2150c2dd-5fbd-4ca0-9a8e-416055789bac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreeConditionCommunication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadCommunication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,14 +76,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="1019">
+              <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreeConditionCommunication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -146,6 +154,7 @@
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CacheDemo.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadCommunication.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java" />
+        <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreeConditionCommunication.java" />
       </list>
     </option>
   </component>
@@ -197,7 +206,7 @@
               <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="peason" type="462c0819:PsiDirectoryNode" />
-              <item name="ConditionCommunication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="ReadWriteTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="01" type="b2602c69:ProjectViewProjectNode" />
@@ -205,7 +214,7 @@
               <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="peason" type="462c0819:PsiDirectoryNode" />
-              <item name="ReadWriteTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="ThreeConditionCommunication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +227,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556063331716" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556065272048" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ThreadTest/ThreadTest.iml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -244,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteTest">
+  <component name="RunManager" selected="Application.ThreeConditionCommunication">
     <configuration name="CallableAndFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zxc.peason.CallableAndFuture" />
       <module name="ThreadTest" />
@@ -260,19 +269,6 @@
     </configuration>
     <configuration name="ReadWriteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zxc.peason.ReadWriteTest" />
-      <module name="ThreadTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zxc.peason.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zxc.peason.ThreadLocalTest" />
       <module name="ThreadTest" />
       <extension name="coverage">
         <pattern>
@@ -310,20 +306,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeConditionCommunication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zxc.peason.ThreeConditionCommunication" />
+      <module name="ThreadTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zxc.peason.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ThreadLocalTest" />
       <item itemvalue="Application.ThreadLocalTest2" />
       <item itemvalue="Application.ThreadPoolTest" />
       <item itemvalue="Application.CallableAndFuture" />
       <item itemvalue="Application.ReadWriteTest" />
+      <item itemvalue="Application.ThreeConditionCommunication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeConditionCommunication" />
         <item itemvalue="Application.ReadWriteTest" />
         <item itemvalue="Application.CallableAndFuture" />
         <item itemvalue="Application.ThreadPoolTest" />
         <item itemvalue="Application.ThreadLocalTest2" />
-        <item itemvalue="Application.ThreadLocalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +346,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555914966623</updated>
-      <workItem from="1555914970989" duration="29267000" />
+      <workItem from="1555914970989" duration="30991000" />
     </task>
     <task id="LOCAL-00001" summary="线程范围内的共享变量">
       <created>1555921376535</created>
@@ -395,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556023653637</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="13.JAVA5阻塞队列简单运用">
+      <created>1556063468516</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556063468516</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29267000" />
+    <option name="totallyTimeSpent" value="30991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -410,7 +426,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -420,7 +436,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,7 +464,8 @@
     <MESSAGE value="10.Callable和future的简单运用" />
     <MESSAGE value="11.java5线程锁技术Lock（）的应用" />
     <MESSAGE value="12java5读写锁ReadWriterLock+面试题应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="12java5读写锁ReadWriterLock+面试题应用" />
+    <MESSAGE value="13.JAVA5阻塞队列简单运用" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.JAVA5阻塞队列简单运用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThreadTest/ThreadTest.iml">
@@ -652,11 +669,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="1019">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreeConditionCommunication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
