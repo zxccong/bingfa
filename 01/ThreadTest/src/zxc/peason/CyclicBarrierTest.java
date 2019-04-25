@@ -8,6 +8,10 @@ import java.util.concurrent.Executors;
 
 /**
  * 15.CyclicBarrier同步工具类
+ *
+ * 多个线程同时到达才执行
+ * CyclicBarrier cyclicBarrier = new CyclicBarrier(3);
+ * cyclicBarrier.await();
  */
 public class CyclicBarrierTest {
 
