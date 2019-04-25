@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2150c2dd-5fbd-4ca0-9a8e-416055789bac" name="Default Changelist" comment="14Semaphere信号灯同步类">
-      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java" afterDir="false" />
+    <list default="true" id="2150c2dd-5fbd-4ca0-9a8e-416055789bac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CountDownLatchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -87,20 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/SemaphoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="32" column="84" lean-forward="true" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+            <state relative-caret-position="361">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="32" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,10 +97,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/locks/Lock.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CountDownLatchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,6 +162,7 @@
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreeConditionCommunication.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/SemaphoreTest.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CountDownLatchTest.java" />
       </list>
     </option>
   </component>
@@ -204,14 +208,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="peason" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peason" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreeConditionCommunication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -223,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556153574392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556155691726" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ThreadTest/ThreadTest.iml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -343,7 +339,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555914966623</updated>
-      <workItem from="1555914970989" duration="35441000" />
+      <workItem from="1555914970989" duration="37655000" />
     </task>
     <task id="LOCAL-00001" summary="线程范围内的共享变量">
       <created>1555921376535</created>
@@ -422,11 +418,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556152408776</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="15.CyclicBarrier同步工具，需要有多个线程同时到达才继续执行">
+      <created>1556153642525</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556153642525</updated>
+    </task>
+    <task id="LOCAL-00013" summary="15.CyclicBarrier同步工具，需要有多个线程同时到达才继续执行">
+      <created>1556153683961</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1556153683961</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35441000" />
+    <option name="totallyTimeSpent" value="37655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -478,7 +488,8 @@
     <MESSAGE value="13.JAVA5阻塞队列简单运用" />
     <MESSAGE value="13.JAVA5阻塞队列复杂运用" />
     <MESSAGE value="14Semaphere信号灯同步类" />
-    <option name="LAST_COMMIT_MESSAGE" value="14Semaphere信号灯同步类" />
+    <MESSAGE value="15.CyclicBarrier同步工具，需要有多个线程同时到达才继续执行" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.CyclicBarrier同步工具，需要有多个线程同时到达才继续执行" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThreadTest/ThreadTest.iml">
@@ -697,20 +708,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/SemaphoreTest.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="209">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/SemaphoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="32" column="84" lean-forward="true" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+        <state relative-caret-position="361">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="32" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
