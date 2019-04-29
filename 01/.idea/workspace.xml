@@ -2,10 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2150c2dd-5fbd-4ca0-9a8e-416055789bac" name="Default Changelist" comment="20.3道面试题第一道运用BlockingQueue第二道用Synchronizd">
-      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/interviewone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/META-INF/ThreadTest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/BlockingQueueCommunication$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/BlockingQueueCommunication$Business.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/BlockingQueueCommunication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/BlockingQueueTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/BlockingQueueTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/BlockingQueueTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/CacheDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/CallableAndFuture$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/CallableAndFuture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/CollectionModifyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ConditionCommunication$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ConditionCommunication$Business.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ConditionCommunication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/CountDownLatchTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/CountDownLatchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/CyclicBarrierTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/CyclicBarrierTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ExchangerTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ExchangerTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ExchangerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/LockTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/LockTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/LockTest$Outputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/LockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/MultiThreadShareData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/MyThreadScopeData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/MyThreadScopeData1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/Queue3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ReadWriteTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ReadWriteTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ReadWriteTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/SemaphoreTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/SemaphoreTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ShareData1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/StudyAtomClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadLocalTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadLocalTest$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadLocalTest$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadLocalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadLocalTest2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadLocalTest2$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadLocalTest2$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadLocalTest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadPoolTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadPoolTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreadPoolTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreeConditionCommunication$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreeConditionCommunication$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreeConditionCommunication$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/ThreeConditionCommunication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/TraditionThreadCommunication$Business.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/interview/InterviewThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/interview/InterviewTwo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/interview/InterviewTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/interview/TestDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/interview/TesttDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/interview/interviewone$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadTest/zxc/peason/interview/interviewone.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CallableAndFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CallableAndFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +76,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CountDownLatchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadPoolTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="304">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,10 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadScopeShareData.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,46 +100,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreeConditionCommunication.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ExchangerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            <state relative-caret-position="207">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadCommunication.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CacheDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="435">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadSynchronized.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/BlockingQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionTimerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#483#1124#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewTwo.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+              <folding>
+                <element signature="e#1749#1750#0" expanded="true" />
+                <element signature="e#1798#1799#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/BlockingQueueCommunication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-995">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,26 +165,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewThree.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+            <state relative-caret-position="912">
+              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/interviewone.java">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CallableAndFuture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="399">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CollectionModifyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,10 +221,8 @@
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadScopeShareData.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest2.java" />
-        <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/StudyAtomClass.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadPoolTest.java" />
-        <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CallableAndFuture.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/LockTest.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/ReadWriteTest.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CacheDemo.java" />
@@ -167,6 +240,8 @@
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/interviewone.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewTwo.java" />
         <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewThree.java" />
+        <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/CallableAndFuture.java" />
+        <option value="$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java" />
       </list>
     </option>
   </component>
@@ -182,6 +257,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,24 +303,7 @@
               <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="peason" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="InterviewTwo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peason" type="462c0819:PsiDirectoryNode" />
               <item name="CollectionModifyException.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peason" type="462c0819:PsiDirectoryNode" />
-              <item name="MultiThreadShareData.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="01" type="b2602c69:ProjectViewProjectNode" />
@@ -281,15 +341,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556188011567" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ThreadTest/ThreadTest.iml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556501759472" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -412,6 +470,8 @@
       <option name="presentableId" value="Default" />
       <updated>1555914966623</updated>
       <workItem from="1555914970989" duration="58048000" />
+      <workItem from="1556355086700" duration="75000" />
+      <workItem from="1556496231612" duration="4697000" />
     </task>
     <task id="LOCAL-00001" summary="线程范围内的共享变量">
       <created>1555921376535</created>
@@ -543,41 +603,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58048000" />
+    <option name="totallyTimeSpent" value="62820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,13 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/CompletionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -698,111 +751,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/BlockingQueueCommunication.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="589">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/BlockingQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/interviewone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#483#1124#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1152#1737#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CacheDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="475">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CallableAndFuture.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="38">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CollectionModifyException.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TaditionalThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state>
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#163#635#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionTimerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CountDownLatchTest.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadSynchronized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-247">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-361">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ExchangerTest.java">
+    <entry file="jar://E:/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="701">
+          <caret line="166" column="27" lean-forward="true" selection-start-line="166" selection-start-column="27" selection-end-line="166" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/LockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
+        <state relative-caret-position="304">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -810,16 +830,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ReadWriteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
+        <state relative-caret-position="418">
           <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -839,36 +852,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/StudyAtomClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="437">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="77" column="86" lean-forward="true" selection-start-line="77" selection-start-column="86" selection-end-line="77" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TaditionalThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        <state relative-caret-position="392">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#433#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadLocalTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="77" column="86" lean-forward="true" selection-start-line="77" selection-start-column="86" selection-end-line="77" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="684">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -877,8 +886,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreadScopeShareData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -887,62 +896,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ThreeConditionCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        <state relative-caret-position="-646">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadCommunication.java">
+    <entry file="jar://E:/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/CompletionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="722">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionThreadSynchronized.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CallableAndFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/TraditionTimerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/interviewone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="399">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewThree.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CountDownLatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        <state relative-caret-position="304">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/interview/InterviewTwo.java">
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CyclicBarrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ExchangerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CacheDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/CollectionModifyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/ConditionCommunication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/BlockingQueueCommunication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-995">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/BlockingQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#1124#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTest/src/zxc/peason/MultiThreadShareData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+          <folding>
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
           </folding>
         </state>
       </provider>

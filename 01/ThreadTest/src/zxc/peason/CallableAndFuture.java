@@ -63,6 +63,8 @@ public class CallableAndFuture {
 //        }
 
         ExecutorService threadPool1 = Executors.newFixedThreadPool(3);
+        //CompletionService用于提交一组Callable任务其take方法，返回一个Future
+        //好比麦子先熟哪一块，先收割哪一块
         CompletionService completionService=new ExecutorCompletionService(threadPool1);
 
         for (int i = 0 ;i<=10;i++) {
